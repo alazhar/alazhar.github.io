@@ -34,9 +34,7 @@ async function sendData (name, email, message, gRecaptchaResponse) {
   return fetch(formUrl, {
     method: 'POST',
     headers: {
-      'Access-Control-Allow-Headers': 'Authorization, Content-Type',
-      'Access-Control-Allow-Origin': 'https://project.alazhar.dev',
-      'Content-Type': 'application/json; charset=UTF-8'
+      'Content-Type': 'undefined'
     },
     body: postData
   })
