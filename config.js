@@ -1,12 +1,12 @@
 const profile = {
-  fullName: 'Website Owner',
-  description: 'FRONT-END DEVELOPER',
+  fullName: 'Al Azhar',
+  description: 'SOFTWARE & WEB DEVELOPER',
   // The basepath is the assets folder
   /// the file sould be imported in assets-import.js
   avatarPath: 'avatar.svg',
   about: {
     title: `HEY THERE! 
-    I'M WEBSITE OWNER`,
+    I'M AZHAR`,
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
    
@@ -47,19 +47,19 @@ const profile = {
     },
     {
       iconName: 'telegram',
-      url: 'https://t.me/username',
+      url: 'https://t.me/kambiang',
       text: "I'm on Telegram",
       hoverColor: '#0088cc'
     },
     {
       iconName: 'github',
-      url: 'https://github.com/username',
+      url: 'https://github.com/alazhar',
       text: "I'm on Github",
       hoverColor: '#000'
     },
     {
       iconName: 'email',
-      url: 'mailto:email@email.co',
+      url: 'mailto:me@alazhar.dev',
       text: 'Send me an email',
       hoverColor: '#000'
     }
