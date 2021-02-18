@@ -33,7 +33,6 @@ async function sendData (name, email, message, gRecaptchaResponse) {
 
   return fetch(formUrl, {
     method: 'POST',
-    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json; charset=UTF-8'
     },
