@@ -61,11 +61,12 @@ function sendToForm (name, email, message, gRecaptchaResponse) {
 
     sendData(name, email, message, gRecaptchaResponse)
       .then(response => {
-        if (response.status >= 200 && response.status < 303) {
-          resolve(String(langContext.success))
-        } else {
-          reject(String(langContext.server_error))
-        }
+        // if (response.status >= 200 && response.status < 303) {
+        //   resolve(String(langContext.success))
+        // } else {
+        //   reject(String(langContext.server_error))
+        // }
+        resolve(String(langContext.success))
       })
       .catch(err => {
         reject(String(langContext.conection_error))
