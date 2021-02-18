@@ -3,7 +3,7 @@ const profile = {
   description: 'SOFTWARE & WEB DEVELOPER',
   // The basepath is the assets folder
   /// the file sould be imported in assets-import.js
-  avatarPath: 'avatar.svg',
+  avatarPath: 'avatar.jpeg',
   about: {
     title: `HEY THERE! 
     I'M AZHAR`,
@@ -88,7 +88,7 @@ const projects = [
   // }
 ]
 
-const formUrl = 'http://localhost:4000'
+const formUrl = 'https://script.google.com/macros/s/AKfycbyDP7wAGSy4zd4uhDbKcjZTGN0HdrYixNkExqjy7K2oKVL0r34/exec'
 const ReCAPTCHAKey = '6LflCl4aAAAAAFaNzjMxUI5QcABpdF_ORZdLRIUW'
 // The basepath is the assets folder
 /// the file sould be imported in assets-import.js
